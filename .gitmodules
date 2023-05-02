@@ -7,3 +7,6 @@
 [submodule "rtabmap_ros"]
 	path = rtabmap_ros
 	url = https://github.com/SkyaX/rtabmap_ros_isir.git
+[submodule "zed-ros2-wrapper"]
+	path = zed-ros2-wrapper
+	url = https://github.com/SkyaX/zed-ros2-wrapper-isir.git
