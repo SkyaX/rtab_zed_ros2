@@ -1,0 +1,9 @@
+[submodule "rtabmap_ros_isir"]
+	path = rtabmap_ros_isir
+	url = https://github.com/SkyaX/rtabmap_ros_isir.git
+[submodule "rtabmap"]
+	path = rtabmap
+	url = https://github.com/SkyaX/rtabmap_isir.git
+[submodule "rtabmap_ros"]
+	path = rtabmap_ros
+	url = https://github.com/SkyaX/rtabmap_ros_isir.git
