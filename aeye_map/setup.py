@@ -10,8 +10,17 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', ['launch/aeye.launch.py']),
     ],
-    install_requires=['setuptools'],
+    install_requires=[
+    'setuptools',
+    'numpy',
+    'rtabmap_launch',
+    'octomap',
+    'rclpy',
+    'rclpy_components',
+    'zed_wrapper'
+    ],
     zip_safe=True,
     maintainer='axel',
     maintainer_email='sky.axel.lans@gmail.com',
@@ -21,5 +30,8 @@ setup(
     entry_points={
         'console_scripts': [
         ],
+    },
+    package_data={
+    'my_package': ['launch/*'],
     },
 )
